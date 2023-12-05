@@ -1,3 +1,4 @@
+import CartWidget from './components/CartWidget/CartWidget';
 import NavBarComponent from './components/NavBarComponent/NavBarComponent'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import "./App.css";
