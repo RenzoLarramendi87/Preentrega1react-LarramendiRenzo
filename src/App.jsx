@@ -1,4 +1,4 @@
-import CartWidget from './components/CartWidget/CartWidget';
+
 import NavBarComponent from './components/NavBarComponent/NavBarComponent'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import "./App.css";
@@ -12,6 +12,8 @@ const App = () => {
     <div style={{width: '100vw', height: '100vh'}}>
       <NavBarComponent/> 
       <ItemListContainer gretting="Bienvenidos a mi tienda de libros"/> 
+      
+
 
     </div> 
 
