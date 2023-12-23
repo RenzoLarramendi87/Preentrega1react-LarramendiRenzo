@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "La felicidad",
+        "author": "Gabriel Rolon",
+        "precio": 1000,
+        "img": "https://planetadelibrosar4.cdnstatics.com/usuaris/libros/fotos/354/m_libros/portada_la-felicidad_gabriel-rolon_202311082001.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "Messi, nacido extraterrestre",
+        "author": "Miguel Rep",
+        "precio": 750,
+        "img": "https://planetadelibrosar2.cdnstatics.com/usuaris/libros/fotos/386/original/portada_messi-nacido-extraterrestre_miguel-rep_202311291649.jpg"
+    },
+
+]
