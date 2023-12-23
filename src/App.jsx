@@ -4,6 +4,7 @@ import ItemListContainer from './components/ItemListContainer/ItemListContainer'
 import CartWidget from './components/CartWidget/CartWidget';
 import "./App.css";
 import { useEffect } from 'react';
+import DataProvider from './Context/DataContext';
 
 import MainLayout from './layouts/MainLayout';
 //Importacion de estilos boostraps
@@ -21,13 +22,15 @@ const App = () => {
     <div style={{width: '100vw', height: '100vh'}}>
       <NavBarComponent/> 
       <ItemListContainer gretting="Bienvenidos a mi tienda de libros"/> 
+      
+    <DataProvider>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={ItemListContainer}></Route>
           <Route path="/cart" element={CartWidget}></Route>
         </Routes>
       </BrowserRouter>
-
+    </DataProvider>
 
       
     </div> 
